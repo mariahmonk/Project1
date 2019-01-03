@@ -28,7 +28,7 @@ a:hover {
   background: black;
   min-height: 30px;
   padding: 10px;
-  position: fixed;
+  position: absolute;
   text-align: center;
 }
 .nav {
@@ -96,20 +96,33 @@ header .profile-image:hover {
 }
 .card {
   margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
+  padding: 50px 50px 50px;
   text-align: left;
   background: #fff;
   border-style: double;
   border-width: thick;
   border-radius: 6px;
   transition: all .5s;
+  position:relative;
+  right: 100px;
+}
+.card2 {
+  margin: 30px;
+  padding: 10px 50px 10px;
+  text-align: left;
+  background: #fff;
+  border-style: double;
+  border-width: thick;
+  border-radius: 6px;
+  transition: all .5s;
+    position:relative;
+    left: 250px;
 }
 .card:hover {
   border-color: #ff99ff;
 }
-
-
+.card2:hover {
+  border-color: #ff99ff;
 }
 ul.skills {
   padding: 0;
@@ -136,10 +149,9 @@ ul.skills {
     transform: scale(1.5)
 }
 footer {
-  background: url('images/street.jpg') no-repeat center ;
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 50px 0 200px 200px;
 }
 
 footer .copyright {
@@ -168,8 +180,8 @@ a.social {
   transition: all .5s;
   color: black;
 }
-a.github {
-  background-image: url(images/github.svg);
+.custom-icon {
+  background-image: url(image/github.svg);
 
 }
 a.social:hover {
@@ -194,6 +206,16 @@ a.social:hover {
   header {
     min-height: 470px;
   }
+
+}
+.newpic{
+  position: relative;
+  top: 100px;
+  right: 450px;
+  border-radius: 50%;
+  width: 300px;
+  height: auto
+}
 
   .nav {
     max-width: 1200px;
