@@ -109,11 +109,12 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+
+}
 ul.skills {
   padding: 0;
   text-align: center;
 }
-
 .skills li {
   border-radius: 6px;
   display: inline-block;
@@ -122,6 +123,10 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
 }
+.skills li:nth-child(odd) {
+  background: #40E0D0;
+}
+
 
 .skills li:nth-child(odd) {
   background: #40E0D0;
@@ -131,6 +136,7 @@ ul.skills {
     transform: scale(1.5)
 }
 footer {
+  background: url('images/street.jpg') no-repeat center ;
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
@@ -160,15 +166,11 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
+  color: black;
 }
 a.github {
   background-image: url(images/github.svg);
+
 }
 a.social:hover {
   opacity: 1;
