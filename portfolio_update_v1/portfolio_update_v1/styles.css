@@ -180,7 +180,7 @@ a.social {
   transition: all .5s;
   color: black;
 }
-.custom-icon {
+.github.svg {
   background-image: url(image/github.svg);
 
 }
